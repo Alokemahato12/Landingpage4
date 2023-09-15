@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(b.jpg);
+ 
+    background-position: center;
+    background-size: cover;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+.nav-bar .title{
+    color: #fff;
+    font-size: 67px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+span{
+    color: crimson;
+}
+.menu li{
+    list-style: none;
+    display:inline-block;
+}
+.nav-bar p{
+    position:absolute;
+    margin-top: 80px;
+    margin-left: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    margin-left: 15px;
+}
+.menu li a:hover{
+    
+    color: rgb(6, 18, 252);
+    padding: 3px 10px ;
+    
+}
+.home{
+    height: 400px;
+    padding: 70px;
+
+}
+.title-1{
+    font-size: 56px;
+    color: #fff;
+    font-weight: 600;
+
+}
+.home p{
+    color: rgb(12, 247, 255);
+    font-size: 20px;
+    padding-top: 10px;
+}
+.home button{
+    height: 40px;
+    width: 100px;
+    color: #fff;
+    background: crimson;
+   
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    transition: .4s ease;
+    cursor: pointer;
+}
+.home button:hover{
+    background: none;
+    border: 2px solid crimson;
+}
+/*----------------Product section coding ------------------------------*/
+
+.product h2{
+    font-size: 50px;
+  margin-left: 340px;
+    font-weight: 700;
+    color: #017143;
+   
+   
+
+}
+.box{
+    height: 200px;
+   
+    width: 200px;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+    inset 4px 4px 10px white;
+border-radius: 20px !important;
+overflow: hidden;
+float: left;
+margin: 20px 40px 50px 30px;
+
+}
+
+button{
+    background:crimson;
+    margin-left: 60px;
+    height: 30px;
+    width: 80px;
+    color:white;
+    border-radius: 10px;
+}
+h3{
+    color: #017143;
+    text-align: center;
+    font-size: 14px;
+}
+h4{
+    text-align: center;
+    color: rgb(89, 22, 72);
+    font-family: sans-serif;
+    font-size: 20px;
+}
+button:hover{
+    background:blueviolet;
+    cursor: pointer;
+
+}
+/* -----------------------End Product section coding---------------------------------------- */
+
+/* ----------------------------Start Services Section coding------------------------- */
+
+.services{
+ font-size: 40px;
+color: #109bf1;
+text-align: center;
+ font-weight: 600;
+ font-style: sans-serif;
+
+}
+.div-box{
+    width: 310px;
+    height: 550px;
+    border: 1px solid rgb(255, 255, 255);
+    float: left;
+    margin: 30px  22px 10px;
+}
+.text{
+    font-size: 20px;
+    margin: 10px;
+    color: rgb(137, 113, 57);
+
+}
+/* -------------------------End Services coding------------------------------- */
+
+
+/* -------------------------Start Contact conding------------------------ */
+
+.contact-page{
+    font-size: 50px;
+    text-align: center;
+    color: #109bf1;
+
+}
+.name{
+    height: 40px;
+    width: 500px;
+    margin: 15px 0px 0px 290px;
+    
+}
+.name1{
+    height: 80px;
+    width: 500px;
+    margin: 15px 0px 0px 290px;
+
+}
+.send-massage{
+    background: #109bf1;
+    margin: 15px 0px 0px 320px;
+    height: 40px;
+    width: 160px;
+}
+
+/* -------------------------End Contact conding------------------------ */
+
+
+/* -------------------Start About Srction Coding ---------------------- */
+
+.about-page{
+    font-size: 90px;
+    text-align: center;
+    color: #109bf1;
+    margin: 50px;
+}
+
+.small{
+    color: #017143;
+    font-size: 22px;
+    margin: 20px;
+}
+footer{
+    width: 1080px;
+    padding: 10px;
+    height: 60px;
+    background: black;
+    color: #fff;
+    text-align: center;
+   font-size: 20px
+   
+}
